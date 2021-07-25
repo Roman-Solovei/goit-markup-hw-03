@@ -234,7 +234,6 @@ h3 {
 
 .team-item {
   background-color: var(--primary-color);
-  border: 1px solid #000000;
   border-radius: 4px;
   text-align: center;
 }
