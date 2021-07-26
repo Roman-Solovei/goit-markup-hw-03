@@ -321,6 +321,9 @@ h3 {
   line-height: 1.87;
   color: var(--primary-text-color);
 }
+.img-gap {
+  display: block;
+}
 
 .gallery {
   display: flex;
