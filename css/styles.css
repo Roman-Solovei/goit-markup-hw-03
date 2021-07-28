@@ -19,11 +19,6 @@ body {
   color: var(--title-text-color);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 h1,
 h2,
 h3,
@@ -31,11 +26,6 @@ p {
   margin: 0;
 }
 
-/* .list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-} */
 ul {
   padding: 0;
   margin: 0;
@@ -55,12 +45,18 @@ img {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*header */
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -107,6 +103,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: 93px;
+  font-weight: 500;
 }
 
 .site-nav-link {
@@ -128,6 +125,8 @@ img {
 
 .site-nav-link-current {
   color: var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /*contacts*/
@@ -135,8 +134,7 @@ img {
   display: flex;
   margin-left: auto;
   align-items: flex-end;
-  /* margin-right: auto; */
-  /* margin-left: auto; */
+  font-weight: 500;
 }
 
 .contacts-link {
@@ -156,7 +154,6 @@ img {
 /*hero*/
 
 .hero {
-  /* flex-direction: column; */
   text-align: center;
   background-color: var(--background-color);
   padding-top: 200px;
@@ -189,6 +186,7 @@ img {
 }
 
 /*нащи приимущества*/
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -348,9 +346,6 @@ img {
   line-height: 1.87;
   color: var(--primary-text-color);
 }
-/* .img-gap {
-  display: block;
-} */
 
 .gallery {
   display: flex;
