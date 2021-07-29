@@ -281,13 +281,14 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-margin {
+.adress-margin {
   margin-top: 20px;
 }
 
-.footer-margin:not(:first-child) {
+.footer-margin {
   margin-top: 9px;
 }
+
 .address {
   font-style: normal;
   line-height: 1.71;
